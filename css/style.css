@@ -1,6 +1,7 @@
 .container {
 	background-color: burlywood;
-	height: 500px;
+	margin: 0;
+	padding: 0;
 }
 
 .header {
@@ -56,4 +57,20 @@
 .contacts-text a:hover{
 	color:gray;
 	text-decoration: underline;
+}
+
+.about {
+	position: relative;
+	margin-top:-20px;
+	background-color: #81b0b2
+}
+
+.icon-about {
+	float: left;
+	margin-left: 20px;
+}
+
+.about-text {
+	margin-left: 100px;
+	margin-bottom: 30px;
 }
