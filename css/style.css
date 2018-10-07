@@ -60,9 +60,11 @@
 }
 
 .about {
+	display: block;
 	position: relative;
 	margin-top: -20px;
-	background-color: #81b0b2
+	padding-bottom: 10px;
+	background-color: #81b0b2;
 }
 
 .icon-about {
@@ -73,4 +75,16 @@
 .about-text {
 	margin-left: 100px;
 	margin-bottom: 30px;
+}
+
+.skills {
+	display: block;
+	position: relative;
+	margin-top: -20px;
+	background-color: #d6ead4;
+	padding-bottom: 10px;
+}
+
+.skills img {
+	margin: 0 25px;
 }
