@@ -16,8 +16,8 @@
 .gretting {
 	position: relative;
 	display: inline-block;
-	top:50px;
-	left:70px;
+	top: 50px;
+	left: 70px;
 	font-size: 22px;
 }
 
@@ -50,18 +50,18 @@
 }
 
 .contacts-text a{
-	color:black;
+	color: black;
 	text-decoration: none;
 }
 
 .contacts-text a:hover{
-	color:gray;
+	color: gray;
 	text-decoration: underline;
 }
 
 .about {
 	position: relative;
-	margin-top:-20px;
+	margin-top: -20px;
 	background-color: #81b0b2
 }
 
