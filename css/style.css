@@ -1,5 +1,4 @@
 .container {
-	background-color: burlywood;
 	max-width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
@@ -16,9 +15,9 @@
 
 .gretting {
 	position: relative;
-	display: inline-block;
 	top: 50px;
 	left: 0px;
+	display: inline-block;
 	font-size: 20px;
 }
 
@@ -27,7 +26,6 @@
 	left: 20px;
 	display: inline-block;
 	margin: 40px 0;
-
 }
 
 .contacts {
@@ -51,17 +49,16 @@
 }
 
 .contacts-text a{
-	color: black;
 	text-decoration: none;
+	color: black;
 }
 
 .contacts-text a:hover{
-	color: gray;
 	text-decoration: underline;
+	color: gray;
 }
 
 .about {
-	display: block;
 	position: relative;
 	margin-top: -20px;
 	padding-bottom: 10px;
@@ -79,11 +76,10 @@
 }
 
 .skills {
-	display: block;
 	position: relative;
 	margin-top: -20px;
-	background-color: #d6ead4;
 	padding-bottom: 30px;
+	background-color: #d6ead4;
 }
 
 .skills img {
@@ -91,7 +87,6 @@
 }
 
 .experience {
-	display: block;
 	position: relative;
 	margin-top: -20px;
 	padding-bottom: 10px;
@@ -107,4 +102,18 @@
 .exper-text {
 	margin-left: 80px;
 	margin-bottom: 60px;
+}
+
+.education {
+	position: relative;
+	margin-top: -20px;
+	padding-bottom: 10px;
+	background-color: #c7d3bf;
+
+}
+
+.stars {
+	width: 300px;
+	padding: 0 20px;
+	border-bottom: 1px  solid rgba(0, 0,0, 0.5);
 }
