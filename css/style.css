@@ -1,3 +1,59 @@
-h1 {
-	color:red;
+.container {
+	background-color: burlywood;
+	height: 500px;
+}
+
+.header {
+	display: block;
+	margin: 0;
+	padding: 0;
+	background: url(../resources/bg.jpg) no-repeat center;
+	background-size: cover;
+	color: black;
+}
+
+.gretting {
+	position: relative;
+	display: inline-block;
+	top:50px;
+	left:70px;
+	font-size: 22px;
+}
+
+.photo {
+	position: relative;
+	left: 200px;
+	display: inline-block;
+	margin: 40px 0;
+
+}
+
+.contacts {
+	position: relative;
+	left: 300px;
+	bottom: 30px;
+	display: inline-block;
+}
+
+.icon {
+	float: left;
+}
+
+.icon:first-child {
+	float: left;
+	margin-top: 15px;
+}
+
+.contacts-text {
+	margin-left: 43px;
+}
+
+.contacts-text a{
+	color:black;
+	text-decoration: none;
+}
+
+.contacts-text a:hover{
+	color:gray;
+	text-decoration: underline;
 }
