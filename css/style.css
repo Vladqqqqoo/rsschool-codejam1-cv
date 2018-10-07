@@ -4,6 +4,10 @@
 	margin-right: auto;
 }
 
+h2 {
+	padding: 10px 0 0 10px;
+}
+
 .header {
 	display: block;
 	margin: 0;
